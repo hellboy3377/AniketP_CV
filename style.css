@@ -32,7 +32,7 @@ a {
   border-radius: 10px;
   padding: 1rem 0.5rem;
   text-align: center;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgba(100, 97, 97, 0.1);
   position: sticky;
   top: 20px;
   height: calc(100vh - 40px);
@@ -90,20 +90,20 @@ a {
 }
 
 .header-block h2 {
-  font-size: 1.0rem;
-  color: #026f6f;
+  font-size: 0.9rem;
+  color: #22c8c8;
 }
 
 .header-block h3 {
   font-size: 0.9rem;
-  color: #1f4f4f;
+  color:#22c8c8;
   margin-top: 0.4rem;
 }
 
 .header-block .tagline {
   font-size: 0.9rem;
   font-weight: bold;
-  color: #26e3e3;
+  color: #a254f5;
   margin: 1rem 0;
   font-style: normal;
 }
