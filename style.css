@@ -89,6 +89,11 @@ a {
   color: #003f3f;
 }
 
+.header-block h2 {
+  font-size: 1.0rem;
+  color: #026f6f;
+}
+
 .header-block h3 {
   font-size: 0.9rem;
   color: #1f4f4f;
@@ -98,7 +103,7 @@ a {
 .header-block .tagline {
   font-size: 0.9rem;
   font-weight: bold;
-  color: #e0ffff;
+  color: #26e3e3;
   margin: 1rem 0;
   font-style: normal;
 }
@@ -112,7 +117,7 @@ a {
 
 .contact-info a {
   color: #ffffff;
-  text-decoration: underline;
+  text-decoration: none;
   font-weight: 500;
 }
 
