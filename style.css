@@ -1,0 +1,261 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f9f9fc;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.page-layout {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
+  background: linear-gradient(to right, #00D1D1, #00ADAD, #005C5C);
+  flex: 1;
+}
+
+.sidebar-nav {
+  width: 60px;
+  background-color: #4052D6;
+  border-radius: 10px;
+  padding: 1rem 0.5rem;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 20px;
+  height: calc(100vh - 40px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sidebar-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-nav ul li {
+  margin: 20px 0;
+}
+
+.sidebar-nav ul li a {
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.header-block {
+  background: linear-gradient(145deg, #00D1D1, #00ADAD);
+  border-radius: 20px;
+  padding: 2rem 1rem;
+  width: 250px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: sticky;
+  top: 20px;
+  height: calc(100vh - 40px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.photo-placeholder {
+  width: 100px;
+  height: 100px;
+  background-color: #f0faff;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+  font-weight: 600;
+}
+
+.header-block h1 {
+  font-size: 1.3rem;
+  color: #003f3f;
+}
+
+.header-block h3 {
+  font-size: 0.9rem;
+  color: #1f4f4f;
+  margin-top: 0.4rem;
+}
+
+.header-block .tagline {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #e0ffff;
+  margin: 1rem 0;
+  font-style: normal;
+}
+
+.contact-info {
+  font-size: 0.75rem;
+  color: #d0fdfd;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.contact-info a {
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.cv-buttons {
+  justify-content: center;
+  display: flex;
+}
+
+.cv-buttons .btn {
+  background-color: white;
+  color: #4052D6;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  margin: 5px;
+  display: inline-block;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.cv-buttons .btn:hover {
+  background-color: #4052D6;
+  color: white;
+}
+
+.main-content {
+  flex: 1;
+  background-color: white;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.main-content section {
+  margin-bottom: 3rem;
+}
+
+.main-content h2 {
+  color: #4052D6;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.services {
+  display: flex;
+  gap: 20px;
+}
+
+.service {
+  background-color: #e9f7f7;
+  padding: 1rem;
+  border-radius: 12px;
+  flex: 1;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.service h3 {
+  color: #005C5C;
+  font-size: 1rem;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  column-count: 3;
+  column-gap: 40px;
+}
+
+.skills-list li {
+  padding-bottom: 10px;
+  color: #333;
+}
+
+.work-exp-timeline {
+  display: flex;
+  justify-content: space-between;
+  background: #d3eff0;
+  border-radius: 25px;
+  padding: 5px;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.year-btn {
+  flex: 1;
+  border: none;
+  background: transparent;
+  padding: 8px 4px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #005C5C;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  font-size: 0.85rem;
+}
+
+.year-btn.active {
+  background: #4052D6;
+  color: white;
+}
+
+.work-item {
+  margin-bottom: 10px;
+}
+
+.dropdown-section button.dropdown-toggle {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  text-align: left;
+  border: none;
+  background-color: #d7f5f5;
+  color: #003f3f;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.dropdown-section button.dropdown-toggle:hover {
+  background-color: #b6f0f0;
+}
+
+.dropdown-section button.dropdown-toggle.active {
+  background-color: #4052D6;
+  color: white;
+}
+
+.dropdown-content {
+  padding: 0.8rem 1rem;
+  background-color: #f0fcfc;
+  border-left: 3px solid #00ADAD;
+  border-radius: 0 0 6px 6px;
+  display: none;
+  font-size: 0.95rem;
+  color: #2c2c2c;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #eee;
+  padding: 1.5rem 0;
+  width: 100%;
+}
